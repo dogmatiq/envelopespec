@@ -11,6 +11,8 @@ The format is based on [Keep a Changelog], and this project adheres to
 
 ## [0.2.0] - 2020-11-03
 
+### Changed
+
 - Bumped Dogma to v0.8.0
 
 ## [0.1.0] - 2020-11-01
