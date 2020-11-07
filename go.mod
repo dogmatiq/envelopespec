@@ -3,7 +3,7 @@ module github.com/dogmatiq/envelopespec
 go 1.15
 
 require (
-	github.com/dogmatiq/configkit v0.8.0
+	github.com/dogmatiq/configkit v0.9.0
 	github.com/dogmatiq/dogma v0.9.0
 	github.com/dogmatiq/marshalkit v0.3.0
 	github.com/golang/protobuf v1.4.3
