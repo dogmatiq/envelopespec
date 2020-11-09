@@ -5,15 +5,13 @@ github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDk
 github.com/cncf/udpa/go v0.0.0-20191209042840-269d4d468f6f/go.mod h1:M8M6+tZqaGXZJjfX53e64911xZQV5JYwmTeXPW+k8Sc=
 github.com/dogmatiq/configkit v0.9.0 h1:irS6Kb6tRzHtGmEKqNegK9bEatMNeZF64iN1Z46trAc=
 github.com/dogmatiq/configkit v0.9.0/go.mod h1:qukQmrrJT/XhZu1/n+2HQ58zzt2FG0ywIFA394JG+g0=
-github.com/dogmatiq/dogma v0.8.0 h1:ijrlmCZGY6GcQ8Atfil6bXGIHEh/hRQoEnUoqfuZzts=
-github.com/dogmatiq/dogma v0.8.0/go.mod h1:8TdjQ5jjV2DcCPb/jjHPgSrqU66H6092yMEIF5HGx0g=
 github.com/dogmatiq/dogma v0.9.0 h1:PGRUqBPVI76HhkxulEEvzxe+693pq9cfQxJWBCpV730=
 github.com/dogmatiq/dogma v0.9.0/go.mod h1:8TdjQ5jjV2DcCPb/jjHPgSrqU66H6092yMEIF5HGx0g=
 github.com/dogmatiq/iago v0.4.0 h1:57nZqVT34IZxtCZEW/RFif7DNUEjMXgevfr/Mmd0N8I=
 github.com/dogmatiq/iago v0.4.0/go.mod h1:fishMWBtzYcjgis6d873VTv9kFm/wHYLOzOyO9ECBDc=
 github.com/dogmatiq/linger v0.2.1/go.mod h1:vQPEiGNtb3Qy+1IdmdSMyLxr4d9vPChknnQkClQimGM=
-github.com/dogmatiq/marshalkit v0.3.0 h1:BeNUPDK+Ekkx/CjlLwbFqpNCrQmrIVB8qJ8ImGKVYOE=
-github.com/dogmatiq/marshalkit v0.3.0/go.mod h1:ffplOc+rbJljNWOWQAX+pe1P3S5S8oSDou2iuJ2QDSE=
+github.com/dogmatiq/marshalkit v0.4.0 h1:1VCfIJRPvdAvm8zFXAoEOQnwVHiX0awo1lhP8BsFC2o=
+github.com/dogmatiq/marshalkit v0.4.0/go.mod h1:XqI46dGMKi6VYx384VZRhFTRSWKq1MtITxQF+qQO7nE=
 github.com/emicklei/dot v0.15.0/go.mod h1:DeV7GvQtIw4h2u73RKBkkFdvVAz0D9fzeJrgPW6gy/s=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
 github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
