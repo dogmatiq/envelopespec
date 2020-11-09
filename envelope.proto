@@ -43,8 +43,8 @@ message Envelope {
   // RFC-3339 format, with nanoseconds.
   string created_at = 7;
 
-  // ScheduledFor is the time at which a timeout message was scheduled, RFC-3339
-  // format, with nanoseconds.
+  // ScheduledFor is the time at which a timeout message is scheduled to be
+  // handled, marshaled in RFC-3339 format, with nanoseconds.
   string scheduled_for = 8;
 
   // Description is a human-readable description of the message.

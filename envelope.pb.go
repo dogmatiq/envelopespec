@@ -111,8 +111,8 @@ type Envelope struct {
 	// CreatedAt is the time at which the message was created, marshaled in
 	// RFC-3339 format, with nanoseconds.
 	CreatedAt string `protobuf:"bytes,7,opt,name=created_at,json=createdAt,proto3" json:"created_at,omitempty"`
-	// ScheduledFor is the time at which a timeout message was scheduled, RFC-3339
-	// format, with nanoseconds.
+	// ScheduledFor is the time at which a timeout message is scheduled to be
+	// handled, marshaled in RFC-3339 format, with nanoseconds.
 	ScheduledFor string `protobuf:"bytes,8,opt,name=scheduled_for,json=scheduledFor,proto3" json:"scheduled_for,omitempty"`
 	// Description is a human-readable description of the message.
 	Description string `protobuf:"bytes,9,opt,name=description,proto3" json:"description,omitempty"`
