@@ -10,6 +10,6 @@ require (
 	github.com/google/go-cmp v0.5.2 // indirect
 	github.com/jmalloc/gomegax v0.0.0-20200507221434-64fca4c0e03a
 	github.com/onsi/ginkgo v1.14.2
-	github.com/onsi/gomega v1.10.3
+	github.com/onsi/gomega v1.10.4
 	google.golang.org/protobuf v1.25.0
 )
