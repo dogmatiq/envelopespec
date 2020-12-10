@@ -3,10 +3,6 @@ package envelopespec_test
 import (
 	"time"
 
-	. "github.com/dogmatiq/marshalkit/fixtures"
-
-	"github.com/dogmatiq/dogma"
-	. "github.com/dogmatiq/dogma/fixtures"
 	. "github.com/dogmatiq/envelopespec"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -16,7 +12,7 @@ var _ = Describe("func CheckWellFormed()", func() {
 	var env *Envelope
 
 	BeforeEach(func() {
-		createdAt := time.Now()
+		createdAt := time.Date(2006, time.January, 2, 15, 4, 5, 0, time.UTC)
 		scheduledFor := createdAt.Add(1 * time.Hour)
 
 		env = &Envelope{
@@ -32,12 +28,12 @@ var _ = Describe("func CheckWellFormed()", func() {
 				Key:  "<handler-key>",
 			},
 			SourceInstanceId: "<instance>",
-			CreatedAt:        MarshalTime(createdAt),
-			ScheduledFor:     MarshalTime(scheduledFor),
-			Description:      dogma.DescribeMessage(MessageA1),
-			PortableName:     MessageAPortableName,
-			MediaType:        MessageA1Packet.MediaType,
-			Data:             MessageA1Packet.Data,
+			CreatedAt:        createdAt.Format(time.RFC3339Nano),
+			ScheduledFor:     scheduledFor.Format(time.RFC3339Nano),
+			Description:      "<description>",
+			PortableName:     "<portable name>",
+			MediaType:        "<media type>",
+			Data:             []byte("<data>"),
 		}
 	})
 
