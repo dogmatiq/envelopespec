@@ -11,9 +11,11 @@ The format is based on [Keep a Changelog], and this project adheres to
 
 ## [Unreleased]
 
-- Removed marshalling function `MarshalMessage()`, ` UnmarshalMessage()`,
+### Removed
+
+- **[BC]** Remove marshalling function `MarshalMessage()`, ` UnmarshalMessage()`,
   `MarshalIdentity()`, `UnmarshalIdentity()`, `MarshalTime()`, and
-  `UnmarshalTime()` from the repository.
+  `UnmarshalTime()`.
 
 ## [0.2.0] - 2020-11-03
 
