@@ -9,3 +9,6 @@
 This repository contains a Protocol Buffers message specification for marshaling
 [Dogma messages](https://github.com/dogmatiq/dogma#message) and associated
 meta-data in a standardized way.
+
+> **This repository is deprecated. Most of the functionality has been moved into
+[dogmatiq/interopspec](https://github.com/dogmatiq/interopspec).**
